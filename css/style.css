@@ -7,18 +7,24 @@
     url('../font/Roboto-Regular-webfont.ttf') format('truetype'),
     url('../font/Roboto-Regular-webfont.svg#robotoregular') format('svg');
 }
+
 @font-face {
   font-family: 'Forte';
   src: url('http://www.fontsaddict.com/fontface/forte.ttf');
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(46, 46, 46);
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
   font-family: 'Forte', Arial, Helvetica, sans-serif;
 }
-h1{
+
+h1 {
   color: white;
   font-size: 15vw;
   -webkit-text-stroke: 5px black;
@@ -26,6 +32,7 @@ h1{
   margin-top: 12rem;
 
 }
+
 a {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,69 +41,90 @@ p {
   font-family: 'robotoregular', Arial, sans-serif;
   color: white;
 }
-.nav-item, .navbar p{
+
+.nav-item,
+.navbar p {
   font-size: 1.7rem;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   background-color: white;
- }
-.navbar-light .navbar-toggler-icon{
-  background-image: url(../img/menub.png);
-  
 }
-.presentation{
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../img/menub.png);
+
+}
+
+.presentation {
   max-height: 900px;
 }
-.img_p{
+
+.img_p {
   background-image: url(../img/artisan-du-burger-14.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.img_p h2{
+
+.img_p h2 {
   font-size: 5vw;
   color: white;
   -webkit-text-stroke: 5px black;
   text-shadow: black 10px 10px 4px;
 }
-.Fait{
+
+.Fait {
   background-color: white;
   padding: 100px 50px 50px 50px;
 }
-.Fait h3{
-  
+
+.Fait h3 {
+
   color: black;
   font-size: 3.5vw;
   text-shadow: black;
 
 }
-.Fait p{
+
+.Fait p {
   color: black;
   font-size: 2.3rem;
   margin-top: 3rem;
 }
-.formules{
+
+.formules {
   min-height: 700px;
 }
-.formules h2{
+
+.formules h2 {
   color: white;
   font-size: 5rem;
+  -webkit-text-stroke: 2px black;
+  text-shadow: black 10px 10px 4px;
 }
-.part{
-  min-width: 330px ;
+
+.part {
+  min-width: 330px;
   margin: 100px 15px 15px 15px;
   padding-left: 3rem;
 }
-.part h3{
+
+.part h3 {
   color: white;
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 2vw;
 }
-.part p{
+
+.part p {
   font-size: 1.5rem;
 }
-.part a{
+
+.part a {
+
   position: absolute;
-  top: 300px;
+  top: 93rem;
+  margin: 42px;
   box-shadow: white 3px 3px 4px;
   border-radius: 20px;
+  border: black solid 1px;
 }
