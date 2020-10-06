@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../font/Roboto-Regular-webfont.eot');
+  src: url('../font/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/Roboto-Regular-webfont.woff2') format('woff2'),
+    url('../font/Roboto-Regular-webfont.woff') format('woff'),
+    url('../font/Roboto-Regular-webfont.ttf') format('truetype'),
+    url('../font/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+}
+@font-face {
+  font-family: 'Forte';
+  src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(46, 46, 46);
+}
+h1, h2, h3 {
+  font-family: 'Forte', Arial, Helvetica, sans-serif;
+}
+h1{
+  color: white;
+  font-size: 15vw;
+  -webkit-text-stroke: 5px black;
+  text-shadow: black 10px 10px 4px;
+  margin-top: 12rem;
+
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  color: white;
+}
+.nav-item, .navbar p{
+  font-size: 1.7rem;
+}
+.navbar-toggler{
+  background-color: white;
+ }
+.navbar-light .navbar-toggler-icon{
+  background-image: url(../img/menub.png);
+  
+}
+.presentation{
+  max-height: 900px;
+}
+.img_p{
+  background-image: url(../img/artisan-du-burger-14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_p h2{
+  font-size: 5vw;
+  color: white;
+  -webkit-text-stroke: 5px black;
+  text-shadow: black 10px 10px 4px;
+}
+.Fait{
+  background-color: white;
+  padding: 100px 50px 50px 50px;
+}
+.Fait h3{
+  
+  color: black;
+  font-size: 3.5vw;
+  text-shadow: black;
+
+}
+.Fait p{
+  color: black;
+  font-size: 2.3rem;
+  margin-top: 3rem;
+}
+.formules{
+  min-height: 700px;
+}
