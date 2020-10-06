@@ -77,3 +77,26 @@ p {
 .formules{
   min-height: 700px;
 }
+.formules h2{
+  color: white;
+  font-size: 5rem;
+}
+.part{
+  min-width: 330px ;
+  margin: 100px 15px 15px 15px;
+  padding-left: 3rem;
+}
+.part h3{
+  color: white;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+.part p{
+  font-size: 1.5rem;
+}
+.part a{
+  position: absolute;
+  top: 300px;
+  box-shadow: white 3px 3px 4px;
+  border-radius: 20px;
+}

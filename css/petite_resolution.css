@@ -88,3 +88,6 @@ h1{
   margin-top: 2rem;
   min-width: 300px ;
 }
+.part{
+  flex-direction: column;
+}
