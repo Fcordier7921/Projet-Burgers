@@ -89,11 +89,5 @@ h1{
   min-width: 300px ;
 }
 .formules{
- display: none;
-}
-.partg{
-  display: none;
-}
-.part a{
-
+  min-width: 375px;
 }
