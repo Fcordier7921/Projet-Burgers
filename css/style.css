@@ -106,8 +106,8 @@ p {
 
 .part {
   min-width: 330px;
-  margin: 100px 15px 15px 15px;
-  padding-left: 3rem;
+  margin: 100px 42px 42px 42px;
+  padding-block-start: ;
 }
 
 .part h3 {
@@ -123,7 +123,8 @@ p {
 .part a {
   position: absolute;
   top: 15rem;
-  margin: 42px;
+  margin-left: 50px;
+  margin-top: 42px;
   box-shadow: white 3px 3px 4px;
   border-radius: 20px;
   border: black solid 1px;

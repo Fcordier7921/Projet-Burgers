@@ -69,11 +69,12 @@ h1{
   top: 200px;
   background-color: transparent;
 }
-.Fait h3{-webkit-text-stroke: 3px black;
+.Fait h3{
+  -webkit-text-stroke: 3px black;
   color: white;
   text-align: center;
   font-size: 10vw;
-  margin-top: 50rem;
+  margin-top: 4rem !important;
   text-shadow: black;
   -webkit-text-stroke: 2px black;
   text-shadow:black 7px 7px 4px;
@@ -82,12 +83,42 @@ h1{
 .Fait p{
   color: white;
   position: relative;
-  left: 1rem;
+  left: 0.7rem;
   text-align: start;
   font-size: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem ;
   min-width: 300px ;
 }
 .formules{
   min-width: 375px;
+}
+.formules h2 {
+  font-size: 3rem;
+  -webkit-text-stroke: 2px black;
+  text-shadow: black 5px 5px 4px;
+  margin-top: 2px;
+
+}
+
+.part {
+  min-width: 330px;
+  margin: 25px 15px 15px 15px;
+  padding-left: 3rem;
+}
+
+.part h3 {
+  color: white;
+  text-decoration: underline;
+  font-size: 7vw;
+  margin:  0px !important;
+}
+.part a {
+  position: initial;
+  justify-content: center;
+  box-shadow: white 3px 3px 4px;
+  border-radius: 20px;
+  border: black solid 1px;
+  font-size: 0.7rem;
+  margin-left: 70px;
+  margin-top:  0px !important;
 }
