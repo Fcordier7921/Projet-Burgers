@@ -16,6 +16,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(46, 46, 46);
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -45,7 +47,7 @@ p {
 
 .nav-item,
 .navbar p {
-  font-size: 1.7rem;
+  font-size: 1.7vw;
 }
 
 .navbar-toggler {
@@ -58,6 +60,7 @@ p {
 }
 
 .presentation {
+  width: 100%;
   max-height: 900px;
 }
 
@@ -89,13 +92,14 @@ p {
 
 .Fait p {
   color: black;
-  font-size: 2.3rem;
-  margin-top: 3rem;
+  font-size: 2vw;
+  padding-top: 3rem;
   overflow: hidden;
+  margin: auto;
 }
 
 .formules {
-  min-height: 700px;
+  min-height: 1000px;
 }
 
 .formules h2 {
@@ -107,8 +111,8 @@ p {
 
 .part {
   min-width: 330px;
-  margin: 100px 42px 42px 42px;
-  padding-block-start: ;
+  margin-top: 100px;
+  
 }
 
 .part h3 {
