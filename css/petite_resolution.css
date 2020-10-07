@@ -1,5 +1,25 @@
+#home p {
+  font-size: 5vw;
+}
+
+.nav-item,
+.navbar p {
+  font-size: 4vw;
+}
+
+#presentation {
+  background-image: url(../img/artisan-du-burger-14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+}
+
 .presentation {
-  min-height: 722px;
+  min-height: 50px;
+}
+
+.img_p {
+  background-image: none;
 }
 
 h1 {
@@ -15,13 +35,10 @@ h1 {
   -webkit-text-stroke: 3px black;
   text-shadow: black 7px 7px 4px;
 }
-
-/* .Fait {
-  position: absolute;
-  top: 200px;
+.Fait{
   background-color: transparent;
-} */
 
+}
 .Fait h3 {
   -webkit-text-stroke: 3px black;
   color: white;
@@ -59,7 +76,6 @@ h1 {
 
 .part {
   min-width: 330px;
-  margin: 25px 15px 15px 15px;
   padding-left: 3rem;
 }
 
@@ -79,4 +95,10 @@ h1 {
   font-size: 0.7rem;
   margin-left: 70px;
   margin-top: 0px !important;
+}
+
+.b-p {
+  position: absolute;
+  top: auto;
+  background-color: white;
 }
