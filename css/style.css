@@ -111,12 +111,12 @@ h3 {
 }
 
 .f1 {
-  height: 20rem;
+  height: 23rem;
 }
 
 #formules a {
   position: absolute;
-  top: 18rem;
+  top: 20rem;
   left: 3rem;
   border-radius: 17px;
   box-shadow: white 2px 2px 4px;
@@ -125,7 +125,7 @@ h3 {
 
 .b_p,
 .burgs1 {
-  height: 45rem;
+  height: 46,5rem;
 }
 
 .b_p {
@@ -135,13 +135,24 @@ h3 {
 .b_p h3 {
   color: black;
   font-size: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .b_p p {
   color: black;
   font-size: 1.5rem;
 }
-
-.titre{
-  font-size: 100rem;
+.t_b{
+  color: white;
+}
+#Nos_burgers{
+  position: relative;
+  top: 755px;
+}
+#Nos_burgers h2{
+  min-height: 7rem;
+  font-size: 4vw;
+  white-space: nowrap;
+  justify-content: center;
 }
