@@ -116,9 +116,9 @@ h3 {
 
 #formules a {
   position: absolute;
-  top: 15rem;
+  top: 18rem;
   left: 3rem;
-  border-radius: 20px;
+  border-radius: 17px;
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
 }
@@ -142,11 +142,6 @@ h3 {
   font-size: 1.5rem;
 }
 
-.burgs1 {
-  background-image: url(../img/1973833203_03392424ac_z.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .titre{
   font-size: 100rem;
 }
