@@ -140,8 +140,8 @@ h3 {
 .b_p h3 {
   color: black;
   font-size: 3rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .b_p p {
@@ -155,7 +155,7 @@ h3 {
 
 #Nos_burgers {
   position: relative;
-  top: 53rem;
+  top: 45rem;
 }
 
 #Nos_burgers h2 {
@@ -192,22 +192,67 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  transition-property: ;
   width: 100%;
   height: 100%;
   margin: 0 auto;
-
+}
+.survol2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 36rem;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .box_b:hover .survol {
   display: block;
   z-index: 1;
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
 }
-
-.box_b:hover .survolé2 {
+.box_b:hover .survol2 {
   display: block;
   z-index: 1;
+}#bar{
+  position: relative;
+  top: 45rem;
+  height: 100rem;
+}
+.titre{
+  height: 10rem;
+  padding-left: 5rem;
+}
+.titre h2{
+  font-size: 10rem;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  text-shadow: black 7px 7px 4px;
+  padding-left: 5rem;
+}
+#bar p{
+  font-size: 2rem;
+  margin: 50px 50px 0 50px;
+}
+.cart_bar {
+  width: 25rem;
+  font-size: 3rem;
+  margin-top: 5rem;
+  margin-left: 33rem;
+  border-radius: 50px;
+  box-shadow: white 2px 2px 4px;
+  border: black solid 1px;
+}
+.car_bar{
+  margin-top: 10rem;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+#petit_dej{
+  position: absolute;
+  top: 360rem;
+  background-image: url(../img/coffee-morning-breakfast-croissant-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
