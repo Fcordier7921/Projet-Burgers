@@ -128,13 +128,11 @@ h3 {
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
 }
-
-.b_p,
-.burgs1 {
+.b_p{
   max-height: 52rem;
 }
-.burgs1 img{
-  min-width: 100%;
+.burgs1{
+  
 }
 .b_p {
   background-color: white;
@@ -227,7 +225,7 @@ h3 {
 
 .titre {
   min-height: 10rem;
-  padding-left: 5rem;
+  padding-left: 20rem;
 }
 .titre img{
   max-width: 10rem;
@@ -242,9 +240,7 @@ h3 {
 }
 #bar p {
   font-size: 2rem;
-  margin: 50px 50px 0 50px;
 }
-
 .cart_bar {
   max-width: 25rem;
   font-size: 3rvw;
@@ -259,7 +255,10 @@ h3 {
   min-width: 100%;
   max-height: 1000px;
 }
-
+.car_bar2{
+  min-height: 5rem;
+background-color: brown;
+}
 #petit_dej {
   background-image: url(../img/coffee-morning-breakfast-croissant-1.jpg);
   background-repeat: no-repeat;
@@ -281,8 +280,8 @@ h3 {
 }
 
 .titre2 img {
-  height: 60%;
-  width: 6rem;
+  max-height: 60%;
+  max-width: 6rem;
   margin-top: 3rem;
   margin-left: 20rem;
 }
