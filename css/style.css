@@ -52,7 +52,7 @@ p {
 }
 
 .navbar a {
-  margin: 0.5rem;
+  margin: 0.5vw;
   white-space: nowrap;
 }
 
@@ -133,7 +133,9 @@ h3 {
 .burgs1 {
   max-height: 52rem;
 }
-
+.burgs1 img{
+  min-width: 100%;
+}
 .b_p {
   background-color: white;
 }
@@ -153,10 +155,8 @@ h3 {
 .t_b {
   color: white;
 }
-
-#Nos_burgers {
-  position: relative;
-  top: 55rem;
+#burg_phares{
+  max-width: 1590px;
 }
 
 #Nos_burgers h2 {
@@ -219,58 +219,52 @@ h3 {
 }
 
 #bar {
-  position: relative;
-  top: 60rem;
-  height: 100rem;
+  min-height: 100rem;
+  margin-top: 5rem;
+  max-width: 1590px;
+  
 }
 
 .titre {
-  height: 10rem;
+  min-height: 10rem;
   padding-left: 5rem;
 }
-
+.titre img{
+  max-width: 10rem;
+  max-height: 10rem;
+}
 .titre h2 {
-  font-size: 10vw;
+  font-size: 9vw;
   color: white;
   -webkit-text-stroke: 3px black;
   text-shadow: black 7px 7px 4px;
   padding-left: 5rem;
 }
-
-.titre img {
-  margin-left: 20rem;
-}
-
 #bar p {
-  font-size: 2vw;
+  font-size: 2rem;
   margin: 50px 50px 0 50px;
 }
 
 .cart_bar {
-  width: 25rem;
+  max-width: 25rem;
   font-size: 3rvw;
   margin-top: 5rem;
-  margin-left: 45rem;
+  margin-left: 35rem;
   margin-bottom: 5rem;
   border-radius: 50px;
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
 }
-.car_bar2{
-  height: 40vw;
-}
-
 .carousel-inner img {
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  max-height: 1000px;
 }
 
 #petit_dej {
-  position: absolute;
-  top: 355rem;
   background-image: url(../img/coffee-morning-breakfast-croissant-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 150rem;
 }
 
 .titre2 {
