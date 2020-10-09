@@ -18,6 +18,7 @@ body {
   background-color: rgb(46, 46, 46);
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
 
 h1,
@@ -57,7 +58,7 @@ p {
 
 .presentation {
   display: flex;
-  height: 750px;
+  min-height: 750px;
 }
 
 .img_p {
@@ -263,7 +264,7 @@ h3 {
 
 #petit_dej {
   position: absolute;
-  top: 370rem;
+  top: 380rem;
   background-image: url(../img/coffee-morning-breakfast-croissant-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,7 +308,7 @@ h3 {
 
 #carte {
   position: relative;
-  top: 150rem;
+  top: 170rem;
   max-height: 150rem;
   margin-bottom: 5rem;
 }
@@ -322,7 +323,7 @@ h3 {
 
 #contact {
   position: relative;
-  top: 150rem;
+  top: 170rem;
   background-image: url(../img/3849117681_356ddfa030_z.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -330,7 +331,7 @@ h3 {
 }
 
 #contact h2 {
-  font-size: 9vw;
+  font-size: 8vw;
   color: white;
   -webkit-text-stroke: 3px black;
   text-shadow: black 10px 10px 4px;
@@ -359,5 +360,8 @@ textarea {
 }
 footer{
   position: relative;
-  top: 150rem;
+  top: 170rem;
+}
+.res_inst{
+width: 20%;
 }
