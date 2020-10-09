@@ -256,6 +256,9 @@ h3 {
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
 }
+.car_bar2{
+  height: 40vw;
+}
 
 .carousel-inner img {
   width: 100%;
@@ -264,7 +267,7 @@ h3 {
 
 #petit_dej {
   position: absolute;
-  top: 380rem;
+  top: 355rem;
   background-image: url(../img/coffee-morning-breakfast-croissant-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,7 +311,7 @@ h3 {
 
 #carte {
   position: relative;
-  top: 170rem;
+  top: 140rem;
   max-height: 150rem;
   margin-bottom: 5rem;
 }
@@ -323,7 +326,7 @@ h3 {
 
 #contact {
   position: relative;
-  top: 170rem;
+  top: 140rem;
   background-image: url(../img/3849117681_356ddfa030_z.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -360,8 +363,8 @@ textarea {
 }
 footer{
   position: relative;
-  top: 170rem;
+  top: 140rem;
 }
-.res_inst{
-width: 20%;
+footer h3{
+  font-size: 0,4vw;
 }

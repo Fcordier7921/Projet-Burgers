@@ -8,8 +8,7 @@
     <meta name="description" content="bienvenu dans notre retaurent, des burgers fait a la main ">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 990px)" href="css/petite_resolution.css" />
+    
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap"
         rel="stylesheet">
@@ -23,6 +22,10 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1030px)" href="/css/moyen_resolution.css" />
+    <link rel="stylesheet" media="screen and (max-width: 820px)" href="css/petite_resolution.css" />
+
 </head>
 
 <body>
@@ -338,8 +341,8 @@
             </p>
             <a type="button" class="btn btn-warning cart_bar col-12" href="img/carte_bar (3).jpg">carte du bar</a>
         </div>
-        <div class="container-fluid car_bar">
-            <div id="demo" class="carousel slide col-12" data-ride="carousel">
+        <div class="container-fluid ">
+            <div id="demo" class="carousel slide col-12 car_bar2" data-ride="carousel">
 
                 <!-- Indicators -->
                 <ul class="carousel-indicators">
@@ -349,7 +352,7 @@
                 </ul>
 
                 <!-- The slideshow -->
-                <div class="carousel-inner">
+                <div class="carousel-inner car_bar2">
                     <div class="carousel-item active">
                         <img src="img/artisan-du-burger-14.jpg" alt="artisan-du-burger" width="1100" height="500">
                     </div>
@@ -424,7 +427,7 @@
                             </div>
                             <div class="row mb-2">
                                 <div class="col-12">
-                                    <input type="text" class="w-100 px-2 py-2" placeholder="Telephone">
+                                    <input type="text" class="w-100 px-2 py-2" placeholder="Email">
                                 </div>
                             </div>
                             <div class="row mb-2">
@@ -441,32 +444,32 @@
     </section>
     <footer class="page-footer font-small special-color-dark pt-4">
         <div class="container-fluid p-0 " style="min-height:156px">
-            <div class="d-flex col-12 col-md-6 col-xl-3 pt-3 pl-5">
-                <div class="logo">
+            <div class="d-flex pt-3 pl-5">
+                <div class="logo col-12 col-md-2">
                     <a class=" pl-2" href="#home"><img classe="logo w-25" src="img/logo (1).jpg" alt="logo"
-                        title="burgers"></a>
+                            title="burgers"></a>
                 </div>
-                <div class="res_inst">
-                    <a class=" pl-2" href="https://www.instagram.com/?hl=fr"><img classe="d-block" src="img/instagram (1).png" alt="instagram"
-                        title="burgers"></a>
+                <div class="res_inst col-12 col-md-2">
+                    <a class=" pl-2" href="https://www.instagram.com/?hl=fr"><img classe="d-block"
+                            src="img/instagram (1).png" alt="instagram" title="burgers"></a>
                 </div>
-                <div class="res_facb">
-                    <a class=" pl-2" href="https://fr-fr.facebook.com/"><img classe="img-fluid" src="img/facebook (1).png" alt="instagram"
-                        title="burgers"></a>
+                <div class="res_facb col-12 col-md-2">
+                    <a class=" pl-2" href="https://fr-fr.facebook.com/"><img classe="img-fluid vw-25 vh-25"
+                            src="img/facebook (1).png" alt="instagram" title="burgers"></a>
                 </div>
-                <div class="d-flex">
-                    <ul class="mx-auto col-12 col-md-6">
-                        <li class="nav-item">
-                            <h3>Réservation :</h3>
-                            <p>0656562626</p>
-                        </li>
-                        <li class="nav-item col-12 col-md-6">
-                            <h3>Horaires :</h3>
-                            <p>Burgers – Café & Bar
-                                2 route de Montaigu
-                                39000 Lons le Saunier
-                            </p>
-                    </ul>
+                <div class="row">
+                    <div class="mx-auto col-12 col-md-4">
+
+                        <h3>Réservation :</h3>
+                        <p>0656562626</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>Horaires :</h3>
+                        <p>Burgers – Café & Bar
+                            2 route de Montaigu
+                            39000 Lons le Saunier
+                        </p>
+                    </div>
                 </div>
             </div>
     </footer>
