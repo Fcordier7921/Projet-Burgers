@@ -131,13 +131,9 @@ h3 {
 .b_p{
   max-height: 52rem;
 }
-.burgs1{
-  
-}
 .b_p {
   background-color: white;
 }
-
 .b_p h3 {
   color: black;
   font-size: 3rem;
@@ -295,7 +291,7 @@ background-color: brown;
   width: 40rem;
   font-size: 3vw;
   margin-top: 5rem;
-  margin-left: 40rem;
+  margin-left: 25rem;
   margin-bottom: 5rem;
   border-radius: 100px;
   box-shadow: white 2px 2px 4px;
@@ -303,8 +299,6 @@ background-color: brown;
 }
 
 #carte {
-  position: relative;
-  top: 140rem;
   max-height: 150rem;
   margin-bottom: 5rem;
 }
@@ -318,8 +312,6 @@ background-color: brown;
 }
 
 #contact {
-  position: relative;
-  top: 140rem;
   background-image: url(../img/3849117681_356ddfa030_z.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,10 +345,6 @@ textarea {
   font-size: 1rem;
   color: red;
   margin-bottom: 5rem;
-}
-footer{
-  position: relative;
-  top: 140rem;
 }
 footer h3{
   font-size: 0,4vw;
