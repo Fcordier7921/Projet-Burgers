@@ -1,3 +1,4 @@
+/*traitemant des information de police et de couleur globale*/
 @font-face {
   font-family: 'robotoregular';
   src: url('../font/Roboto-Regular-webfont.eot');
@@ -38,6 +39,7 @@ p {
 }
 
 .nav-item,
+/*partie hearder*/
 .navbar p {
   font-size: 1.5vw;
 }
@@ -56,6 +58,24 @@ p {
   white-space: nowrap;
 }
 
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+
+  .nav-item,
+  .navbar p {
+    font-size: 1em;
+  }
+
+
+}
+
+@media screen and (max-width: 100px) {
+  .nav-item,
+  .navbar p {
+    font-size: 1em;
+  }
+}
+
+/*prensentation de l'entreprise*/
 .presentation {
   display: flex;
   min-height: 750px;
@@ -97,6 +117,11 @@ h1 {
   font-size: 2vw;
 }
 
+@media screen and (min-width: 200px) and (max-width: 800px) {}
+
+@media screen and (max-width: 800px) {}
+
+/*prensentations des formules*/
 #formules h2,
 h3 {
   color: white;
@@ -128,12 +153,20 @@ h3 {
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
 }
-.b_p{
+
+@media screen and (min-width: 200px) and (max-width: 800px) {}
+
+@media screen and (max-width: 800px) {}
+
+/*presentation des burgeurs phares*/
+.b_p {
   max-height: 52rem;
 }
+
 .b_p {
   background-color: white;
 }
+
 .b_p h3 {
   color: black;
   font-size: 3rem;
@@ -146,10 +179,16 @@ h3 {
   font-size: 1.5rem;
 }
 
+@media screen and (min-width: 200px) and (max-width: 800px) {}
+
+@media screen and (max-width: 800px) {}
+
+/*liste des burgers*/
 .t_b {
   color: white;
 }
-#burg_phares{
+
+#burg_phares {
   max-width: 1590px;
 }
 
@@ -212,21 +251,28 @@ h3 {
   z-index: 1;
 }
 
+@media screen and (min-width: 200px) and (max-width: 800px) {}
+
+@media screen and (max-width: 800px) {}
+
+/*présentation du bar*/
 #bar {
   min-height: 100rem;
   margin-top: 5rem;
   max-width: 1590px;
-  
+
 }
 
 .titre {
   min-height: 10rem;
   padding-left: 20rem;
 }
-.titre img{
+
+.titre img {
   max-width: 10rem;
   max-height: 10rem;
 }
+
 .titre h2 {
   font-size: 9vw;
   color: white;
@@ -234,9 +280,11 @@ h3 {
   text-shadow: black 7px 7px 4px;
   padding-left: 5rem;
 }
+
 #bar p {
   font-size: 2rem;
 }
+
 .cart_bar {
   max-width: 25rem;
   font-size: 3rvw;
@@ -247,14 +295,22 @@ h3 {
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
 }
+
 .carousel-inner img {
   min-width: 100%;
   max-height: 1000px;
 }
-.car_bar2{
+
+.car_bar2 {
   min-height: 5rem;
-background-color: brown;
+  background-color: brown;
 }
+
+@media screen and (min-width: 200px) and (max-width: 800px) {}
+
+@media screen and (max-width: 800px) {}
+
+/*présentations du petit déjeuner*/
 #petit_dej {
   background-image: url(../img/coffee-morning-breakfast-croissant-1.jpg);
   background-repeat: no-repeat;
@@ -298,6 +354,11 @@ background-color: brown;
   border: black solid 1px;
 }
 
+@media screen and (min-width: 200px) and (max-width: 800px) {}
+
+@media screen and (max-width: 800px) {}
+
+/*parti renseignmentdu restaurent*/
 #carte {
   max-height: 150rem;
   margin-bottom: 5rem;
@@ -311,6 +372,7 @@ background-color: brown;
   font-size: 3vw;
 }
 
+/*formulaire de contact*/
 #contact {
   background-image: url(../img/3849117681_356ddfa030_z.jpg);
   background-repeat: no-repeat;
@@ -346,6 +408,16 @@ textarea {
   color: red;
   margin-bottom: 5rem;
 }
-footer h3{
-  font-size: 0,4vw;
+
+@media screen and (min-width: 200px) and (max-width: 640px) {}
+
+@media screen and (max-width: 640px) {}
+
+/* pied de page*/
+footer h3 {
+  font-size: 0, 4vw;
 }
+
+@media screen and (min-width: 200px) and (max-width: 800px) {}
+
+@media screen and (max-width: 800px) {}
