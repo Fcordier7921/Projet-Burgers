@@ -37,6 +37,8 @@ p {
   font-family: 'robotoregular', Arial, sans-serif;
   color: white;
 }
+
+
 /*partie hearder*/
 #home{
   position: fixed;
@@ -114,6 +116,7 @@ h1 {
 }
 
 .Fait {
+  
   background-color: white;
 }
 
@@ -130,12 +133,14 @@ h1 {
 @media screen and (max-width: 730px) {
 
   .Fait p {
-    font-size: 5vw;
+    font-size: 10vw;
   }
   .Fait h3 {
-    font-size: 5vw;
+    margin-top: 3rem!important;
+    font-size: 12vw;
   }
   .img_p h1{
+    margin-top: 5rem;
     font-size: 20vw;
   }
   .img_p h2{
@@ -173,9 +178,7 @@ padding: 0;
 }
 
 #formules a {
-  position: absolute;
-  top: 23rem;
-  left: 2rem;
+ 
   border-radius: 17px;
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
