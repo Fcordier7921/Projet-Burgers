@@ -437,6 +437,7 @@ h3 {
 }
 
 #Nos_burgers h2 {
+  padding-top: 2rem;
   min-height: 7rem;
   font-size: 4vw;
   white-space: nowrap;
@@ -484,30 +485,105 @@ h3 {
   height: 100%;
   margin: 0 auto;
 }
-
-.box_b:hover .survol {
-  display: block;
-  z-index: 1;
+.button{
+  position: absolute;
+  bottom: 1rem;
+  border-radius: 17px;
+  box-shadow: white 2px 2px 4px;
+  border: black solid 1px;
 }
-
-.box_b:hover .survol2 {
-  display: block;
-  z-index: 1;
-}
-
-@media screen and (min-width: 480px) and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .t_ordi{
     display: none;
-  }.t_mobile {
+  }
+  .t_mobile {
+    margin-top: 2rem;
     display: block;
     min-height: 375px;
-    background-image: url(img/1973833203_03392424ac_z.jpg);
+    background-image: url(../img/1973833203_03392424ac_z.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .t_mobile h3{
+    padding-left: 7rem;
+    font-size: 5rem!important;
+    text-align: center!important;
+    -webkit-text-stroke: 3px black;
+  text-shadow: black 7px 7px 4px;
+  }
+  .t_mobile p{
+    color: white;
+    margin-top: 8rem;
+    margin-left: -2rem;
+    font-size: 2rem!important;
+    text-align: center!important;
+    -webkit-text-stroke: 1.5px black;
+  text-shadow: black 2px 2px 4px;
+  }
+  .t_mobile a{
+    margin-left: 12rem;
+    font-size: 2rem!important;
+  
+  }
 
 }
-
+@media screen and (max-width: 767px) {
+  
+  .t_mobile h3{
+    padding-left: 1rem;
+  }
+  .t_mobile p{
+    margin-left: -2rem;
+  }
+  .t_mobile a{
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  
+  .t_mobile h3{
+    padding-left: 1rem;
+    font-size: 5rem!important;
+  }
+}
+@media screen and (max-width: 459px) {
+  
+  .t_mobile h3{
+    padding-left: 1rem;
+    font-size: 4rem!important;
+  }
+  .t_mobile a{
+    margin-left: 2.5rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  
+  .t_mobile h3{
+    padding-left: 1.5rem!important;
+    font-size: 3rem!important;
+    
+  }
+  .t_mobile p{
+    font-size: 1.7rem!important;
+    margin-left: -1rem;
+  }
+  .t_mobile a{
+    margin-left: 2rem!important;
+    box-shadow: white 2px 2px 4px;
+  border: black solid 1px;
+  border-radius: 5rem;
+  }
+}
+@media screen and (max-width: 302px) {
+  
+  .t_mobile h3{
+    font-size: 2.5rem!important;
+    
+  }
+  .t_mobile a{
+    margin-left: 1rem!important;
+  }
+}
 
 /*présentation du bar*/
 #bar {
