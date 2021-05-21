@@ -523,6 +523,9 @@ h3 {
   .t_mobile a{
     margin-left: 12rem;
     font-size: 2rem!important;
+    box-shadow: white 2px 2px 4px;
+    border: black solid 1px;
+    border-radius: 5rem;
   
   }
 
@@ -554,6 +557,9 @@ h3 {
   }
   .t_mobile a{
     margin-left: 2.5rem;
+    box-shadow: white 2px 2px 4px;
+    border: black solid 1px;
+    border-radius: 5rem;
   }
 }
 @media screen and (max-width: 376px) {
@@ -568,7 +574,7 @@ h3 {
     margin-left: -1rem;
   }
   .t_mobile a{
-    margin-left: 2rem!important;
+    margin-right: 1.5rem!important;
     box-shadow: white 2px 2px 4px;
   border: black solid 1px;
   border-radius: 5rem;
@@ -581,7 +587,7 @@ h3 {
     
   }
   .t_mobile a{
-    margin-left: 1rem!important;
+    margin-left: 1.5em!important;
   }
 }
 
