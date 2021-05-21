@@ -265,6 +265,22 @@ h3 {
 }
 
 }
+@media screen and  (max-width: 600px) {
+
+  .f1 {
+  
+    height: 30rem;
+    margin: auto;
+    padding: 4rem;
+  
+  }
+.f1 a{
+  position: absolute;
+  bottom: 4rem;
+  left: 30%;
+}
+
+}
 
 /*presentation des burgeurs phares*/
 .b_p {
