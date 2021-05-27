@@ -195,7 +195,7 @@ h3 {
 .f1 a{
   position: absolute;
   bottom: 0;
-  left: 4rem;
+  left: 3rem;
 }
 
 #formules a {
@@ -231,7 +231,7 @@ h3 {
 .f1 a{
   position: absolute;
   bottom:0;
-  left: 4rem;
+  left: 8rem;
 }
 
 }
@@ -261,7 +261,7 @@ h3 {
 .f1 a{
   position: absolute;
   bottom: 4rem;
-  left: 42vw;
+  left: 40vw;
 }
 
 }
@@ -277,10 +277,44 @@ h3 {
 .f1 a{
   position: absolute;
   bottom: 4rem;
-  left: 40%;
+  left: 13.5rem;
 }
 
 }
+@media screen and  (max-width: 520px) {
+
+  .f1 {
+  
+    height: 30rem;
+    margin: auto;
+    padding: 4rem;
+  
+  }
+.f1 a{
+  position: absolute;
+  bottom: 4rem;
+  left: 8.5rem;
+}
+
+}
+@media screen and  (max-width: 500px) {
+
+.f1 a{
+  position: absolute;
+  bottom: 4rem;
+  left: 9rem;
+}
+
+}
+@media screen and  (max-width: 400px) {
+
+  .f1 a{
+    position: absolute;
+    bottom: 4rem;
+    left: 7rem;
+  }
+  
+  }
 
 /*presentation des burgeurs phares*/
 #burg_phares{
@@ -492,6 +526,19 @@ h3 {
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
 }
+.modal-content{
+  width: 50rem!important;
+  height: 35rem!important;
+}
+.modal-dialog{
+  margin-left: 15rem !important;
+}
+@media screen and (max-width: 1150px){
+  .modal-dialog{
+    margin-left: 9rem !important;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .t_ordi{
     display: none;
@@ -530,6 +577,7 @@ h3 {
   }
 
 }
+
 @media screen and (max-width: 767px) {
   
   .t_mobile h3{
@@ -556,7 +604,8 @@ h3 {
     font-size: 4rem!important;
   }
   .t_mobile a{
-    margin-left: 2.5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
     box-shadow: white 2px 2px 4px;
     border: black solid 1px;
     border-radius: 5rem;
@@ -574,7 +623,9 @@ h3 {
     margin-left: -1rem;
   }
   .t_mobile a{
-    margin-right: 1.5rem!important;
+    margin-top: 5rem;
+    font-size: 1.5rem!important;
+    margin-left: rem!important;
     box-shadow: white 2px 2px 4px;
   border: black solid 1px;
   border-radius: 5rem;
@@ -584,10 +635,20 @@ h3 {
   
   .t_mobile h3{
     font-size: 2.5rem!important;
+    margin-bottom: 0.5rem!important;
     
   }
+  .t_mobile p{
+    font-size: 2rem!important;
+    margin-top: 6rem!important;
+  }
   .t_mobile a{
-    margin-left: 1.5em!important;
+    margin-top: 0.5rem!important;
+    font-size: 1.3rem!important;
+    margin-left: 1.4rem!important;
+    border-radius: 17px;
+  box-shadow: white 2px 2px 4px;
+  border: black solid 1px;
   }
 }
 
@@ -623,7 +684,7 @@ h3 {
 
 .cart_bar {
   max-width: 25rem;
-  font-size: 3rvw;
+  font-size: 3vw;
   margin-top: 5rem;
   margin-left: 35rem;
   margin-bottom: 5rem;
@@ -642,7 +703,9 @@ h3 {
   background-color: brown;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1000px) {}
+@media screen and (min-width: 480px) and (max-width: 1000px) {
+
+}
 
 
 
