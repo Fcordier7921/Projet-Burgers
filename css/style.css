@@ -217,10 +217,8 @@ h3 {
 }
 
 .f1 {
-  
   min-height: 30rem;
   padding: 4rem;
-
 }
 
 }
@@ -239,8 +237,12 @@ h3 {
   text-align: center;
 
 }
-
-
+.textformule{
+  text-align: center;
+}
+.f1{
+ margin-bottom: 2rem!important;
+}
 }
 
 
