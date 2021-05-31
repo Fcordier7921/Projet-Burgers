@@ -688,7 +688,6 @@ h3 {
 
 .titre2 {
   height: 10rem;
-  padding-left: 5rem;
 }
 
 .titre2 h2 {
@@ -709,7 +708,7 @@ h3 {
 
 #petit_dej p {
   font-size: 5vw;
-  margin: 100px 80px 0 120px;
+  margin: 10px 20px 0 20px;
   -webkit-text-stroke: 1px black;
   text-shadow: black 4px 4px 4px;
 }
@@ -723,8 +722,29 @@ h3 {
   box-shadow: white 2px 2px 4px;
   border: black solid 1px;
 }
+@media screen and  (max-width: 800px) {
 
+  .titre2 img {
+    max-height: 40%;
+    max-width: 4rem;
+    margin: 2rem 0 0 0;
+  }
+}
+@media screen and  (max-width: 480px) {
 
+  .titre2 img {
+    max-height: 30%;
+    max-width: 3rem;
+  }
+  #petit_dej p {
+    font-size: 10vw;
+  
+  }
+  #petit_dej a {
+    font-size: 5vw;
+  
+  }
+}
 
 
 
