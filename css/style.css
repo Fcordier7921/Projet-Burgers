@@ -774,6 +774,20 @@ h3 {
 .cordoné p {
   font-size: 3vw;
 }
+iframe{
+  height: 100%;
+}
+@media screen and (max-width: 1200px) {
+    .maps{
+    height: 30rem!important;
+  }
+  .cordoné p {
+    font-size: 5vw;
+  }
+  .cordoné h3 {
+    font-size: 7vw;
+  }
+}
 
 /*formulaire de contact*/
 #contact {
@@ -813,9 +827,7 @@ textarea {
 }
 
 @media screen and (max-width: 900px) {
-  .map{
-    display: none;
-  }
+  
 }
 
 
