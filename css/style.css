@@ -672,9 +672,14 @@ h3 {
   }
   .titre h2 {
     padding-left: 3rem;
+    -webkit-text-stroke: initial!important;
+    text-shadow: none;
   }
   .titre{
     min-height: 5rem;
+  }
+  #bar p {
+    font-size: 5vw;
   }
 }
 
@@ -729,6 +734,9 @@ h3 {
     max-width: 4rem;
     margin: 2rem 0 0 0;
   }
+  #petit_dej p {
+    font-size: 7vw;
+  }
 }
 @media screen and  (max-width: 480px) {
 
@@ -738,11 +746,16 @@ h3 {
   }
   #petit_dej p {
     font-size: 10vw;
-  
   }
   #petit_dej a {
     font-size: 5vw;
   
+  }
+  .titre2 h2 {
+    font-size: 20vw;      
+  }
+  .titre2 {
+    margin-bottom: 3rem;
   }
 }
 
