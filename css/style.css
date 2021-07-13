@@ -108,7 +108,7 @@ h1 {
   font-size: 15vw;
   -webkit-text-stroke: 5px black;
   text-shadow: black 10px 10px 4px;
-  margin-top: 12rem;
+  margin-top: 5rem;
 }
 
 .img_p h2 {
@@ -128,14 +128,13 @@ h1 {
   justify-content: start;
   color: black;
 }
-
 .Fait p {
   color: black;
   font-size: 2vw;
 }
 @media screen and (min-width: 731px) and (max-width: 991px) {
   .Fait p {
-    font-size: 1.5rem;
+    font-size: 3vw!important;
   }
   .Fait h3 {
     margin-top: 3rem!important;
@@ -187,7 +186,7 @@ h3 {
 
 .f1 {
   
-  height: 25rem;
+  height: 35rem!important;
   margin: auto;
   padding-left: 2rem;
   margin-bottom: 5rem;
@@ -207,7 +206,7 @@ h3 {
   }
 
 #formules h3 {
-  font-size: 4vw;
+  font-size: 5vw;
   text-align: start;
 }
 
@@ -316,6 +315,9 @@ h3 {
   .b_p {
     left: 10rem;
   }
+  .burgs1{
+    max-height: 5rem!important;
+  }
 }
 @media screen  and (max-width: 767px) {
   .b_p {
@@ -331,6 +333,7 @@ h3 {
   .b_p p {
     margin-left: 7rem!important;
   }
+
 }
 @media screen  and (max-width: 700px) {
   .b_p {
@@ -395,6 +398,8 @@ h3 {
 /*liste des burgers*/
 .t_b {
   color: white;
+  font-size: 4vw;
+  -webkit-text-stroke: 3px black;
 }
 
 #burg_phares {
@@ -422,34 +427,17 @@ h3 {
   position: relative;
   height: 22rem;
   border: solid white 3px;
+  overflow: hidden;
 }
 
 .box_b h3 {
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  font-size: 3vw;
   -webkit-text-stroke: 3px black;
   text-shadow: black 7px 7px 4px;
 }
 
-.survol {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
 
-.survol2 {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 36rem;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
 .button{
   position: absolute;
   bottom: 1rem;
@@ -477,7 +465,7 @@ h3 {
   .t_mobile {
     margin-top: 2rem;
     display: block;
-    min-height: 375px;
+    min-height: 450px;
     background-image: url(../img/1973833203_03392424ac_z.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -587,7 +575,7 @@ h3 {
 #bar {
   margin-bottom: 5rem;
   margin-top: 5rem;
-  max-width: 1590px;
+  
 
 }
 
@@ -645,7 +633,7 @@ h3 {
     max-height: 7rem;
   }
 }
-@media screen and  (max-width: 710px) {
+@media screen and  (max-width: 800px) {
 
   .titre {
     padding-left: 2rem;
@@ -657,6 +645,9 @@ h3 {
   }
   .cart_bar {
     font-size: 5vw;
+  }
+  #bar p {
+    font-size: 5vw!important;
   }
 
 }
@@ -680,7 +671,7 @@ h3 {
     min-height: 5rem;
   }
   #bar p {
-    font-size: 5vw;
+    font-size: 5vw!important;
   }
 }
 
