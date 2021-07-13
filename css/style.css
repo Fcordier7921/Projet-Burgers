@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   max-width: 100%;
+  
 }
 
 h1,
@@ -801,7 +802,7 @@ iframe{
   background-image: url(../img/3849117681_356ddfa030_z.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 60rem;
+
 }
 
 #contact h2 {
@@ -837,8 +838,20 @@ textarea {
 
 
 /* pied de page*/
+footer{
+  max-width: 97%;
+}
 footer h3 {
-  font-size: 0, 4vw;
+  font-size: 2vw;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1000px) {}
+@media screen and (max-width: 950px) {
+  footer h3 {
+    font-size: 4vw!important;
+  }
+}
+@media screen and (max-width: 550px) {
+  footer h3 {
+    font-size: 7vw!important;
+  }
+}
