@@ -769,6 +769,9 @@ h3 {
 iframe{
   height: 100%;
 }
+.adresse{
+  display: none;
+}
 @media screen and (max-width: 1200px) {
     .maps{
     height: 30rem!important;
@@ -777,6 +780,18 @@ iframe{
     font-size: 5vw;
   }
   .cordoné h3 {
+    font-size: 7vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .maps{
+  display: none;
+  }
+  .adresse{
+    display: block;
+    font-size: 5vw;
+  }
+  .adresse h3{
     font-size: 7vw;
   }
 }
